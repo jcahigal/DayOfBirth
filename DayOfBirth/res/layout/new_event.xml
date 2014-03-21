@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:gravity="left"
+            android:padding="2dp"
+            android:text="@string/nameId_text"
+            android:textSize="20sp" />
+        
+        <EditText 
+            android:id="@+id/nameId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:gravity="left"
+            android:padding="2dp"
+            android:textSize="18sp"/>
+       
+
+       <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:gravity="left"
+            android:padding="2dp"
+            android:text="@string/breed_text"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/breed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/breed_human"
+                android:text="@string/breed_human" />
+
+            <RadioButton
+                android:id="@+id/breed_dog"
+                android:text="@string/breed_dog" />
+
+            <RadioButton
+                android:id="@+id/breed_cat"
+                android:text="@string/breed_cat" />
+
+            <RadioButton
+                android:id="@+id/breed_horse"
+                android:text="@string/breed_horse" />
+
+            <RadioButton
+                android:id="@+id/breed_cow"
+                android:text="@string/breed_cow" />
+
+            <RadioButton
+                android:id="@+id/breed_sheep"
+                android:text="@string/breed_sheep" />
+
+            <RadioButton
+                android:id="@+id/breed_goat"
+                android:text="@string/breed_goat" />
+
+            <RadioButton
+                android:id="@+id/breed_pig"
+                android:text="@string/breed_pig" />
+        </RadioGroup>
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:gravity="left"
+            android:padding="2dp"
+            android:text="@string/fecundation_date_text"
+            android:textSize="20sp" />
+        
+         <DatePicker
+            android:id="@+id/dateSelect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/create_new_event"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="12dp"
+            android:onClick="runCreateEvent"
+            android:padding="20dp"
+            android:text="@string/create_event" />
+    </LinearLayout>
+
+</ScrollView>

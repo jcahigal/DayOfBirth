@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- general -->
+    <string name="app_name">Fecha de Nacimiento</string>
+    
+    <string name="repetitions">Repeticiones</string>
+    
+    <!-- menu -->
+    <string name="action_settings">Configuración</string>
+    <string name="action_about">Acerca de</string>
+    
+    
+    <!-- activities -->
+    <!-- a) main -->
+    <string name="new_event">Nuevo evento</string>
+    <string name="next_events">Próximos eventos:</string>
+    
+	<!-- b) About -->
+	<string name="aboutText">Esta aplicación ha sido creada para servirte como recordatorio de los nacimientos esperados. \nAplicación desarrollada por Juan Carlos Hdez. (2013)\nLa configuración de las preferencias es operativa para versiones de android superiores a 3.0, para versiones previas recordará siete días antes.</string>
+	<string name="aboutLabel">Acerca de &#8230;</string>
+	
+	<!-- c) Settings -->
+	<string name="notifTitle">Activar notificación</string>
+	<string name="notifSumary">Además del día señalado, puede activar otra notificacion, para un día previo, y así estar preparado para el evento</string>
+	<string name="notifDays">Número de días previos</string>
+		
+	<!-- d) NewEvent -->
+	<string name="newEventLabel">Añadir nuevo evento</string>
+	<string name="nameId_text">Nombre o ID:</string>
+	<string name="breed_text">Selecciona la raza:</string>
+	<string name="breed_human">Humano</string>
+	<string name="breed_dog">Perro</string>
+	<string name="breed_cat">Gato</string>
+	<string name="breed_horse">Caballo</string>
+	<string name="breed_cow">Vaca</string>
+	<string name="breed_sheep">Oveja</string>
+	<string name="breed_goat">Cabra</string>
+	<string name="breed_pig">Cerdo</string>
+	<string name="fecundation_date_text">Fecha de fecundation:</string>
+	<string name="create_event">Crear evento</string>
+	<string name="created_text">Evento creando para</string>
+	<string name="notifDays_text">, días restantes: </string>
+</resources>

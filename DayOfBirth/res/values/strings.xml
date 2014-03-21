@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- general -->
+    <string name="app_name">DayOfBirth</string>
+    
+    <string name="repetitions">Repetitions</string>
+        
+    <!-- menu -->
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+    
+    <!-- activities -->
+    <!-- a) main -->
+    <string name="new_event">New event</string>
+    <string name="next_events">Upcoming events:</string>
+        
+	<!-- b) About -->
+	<string name="aboutText">This application has been created to serve as a reminder of expected births. \nApplication developed by Juan Carlos Hdez. (2013) \nThe preference settings is operative to higher versions of android 3.0, previous versions will be remembered for seven days before.</string>
+	<string name="aboutLabel">About &#8230;</string>
+	
+	<!-- c) Settings -->
+	<string name="notifTitle">Enable notification</string>
+	<string name="notifSumary">Besides of the appointed day, you can receive other notification a previous day, so you\'ll be prepared for the event</string>
+	<string name="notifDays">Number of days before</string>
+	
+	<!-- d) NewEvent -->
+	<string name="newEventLabel">Add new event</string>
+	<string name="nameId_text">Name or ID:</string>
+	<string name="breed_text">Select the breed:</string>
+	<string name="breed_human">Human</string>
+	<string name="breed_dog">Dog</string>
+	<string name="breed_cat">Cat</string>
+	<string name="breed_horse">Horse</string>
+	<string name="breed_cow">Cow</string>
+	<string name="breed_sheep">Sheep</string>
+	<string name="breed_goat">Goat</string>
+	<string name="breed_pig">Pig</string>
+	<string name="fecundation_date_text">Fecundation date:</string>
+	<string name="create_event">Create event</string>
+	<string name="created_text">Event created for</string>
+	<string name="notifDays_text">, days remaining: </string>
+</resources>
