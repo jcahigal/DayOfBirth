@@ -5,7 +5,7 @@ Project based on an android application to remember dates of birth.
 ##Version  
 1.0.0  
   
-##Dependencies (pip freeze)  
+##Dependencies   
 *Android==4.2.2  
 *Java==1.6  
     
