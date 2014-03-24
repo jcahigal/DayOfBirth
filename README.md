@@ -14,6 +14,9 @@ It has been tested in emulator and mobile phone (from api version 14)
 
 ## Version / Changelog  
 1.0.0  
+  
+## License  
+GPL v3    
     
 ##Author  
 *Juan Carlos Hdez. (programaando@gmail.com)  
